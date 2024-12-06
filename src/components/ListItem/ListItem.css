@@ -1,0 +1,76 @@
+/* Name Section */
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.name-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name-status {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.name-camera {
+  font-size: 14px;
+  color: #545454;
+}
+
+.name-email {
+  font-size: 12px;
+  color: #7e7e7e;
+}
+
+/* Health Section */
+.health {
+  display: flex;
+  gap: 12px;
+}
+.health-cloud,
+.health-battery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+.battery-spin,
+.cloud-spin {
+  font-size: 10px;
+}
+
+/* Location Section */
+.location {
+  color: #545454;
+  font-size: 14px;
+  line-height: 16.94px;
+}
+
+/* Recorder Section */
+.recorder {
+  color: #545454;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+
+/* Tasks Section */
+.tasks {
+  color: #545454;
+  font-size: 14px;
+  line-height: 16.94px;
+}
+
+.action {
+  padding-left: 15px;
+  align-self: center;
+}
+
+.name-current_status {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}

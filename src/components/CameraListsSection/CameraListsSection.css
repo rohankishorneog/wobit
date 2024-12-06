@@ -1,0 +1,10 @@
+.camera-lists-section {
+  background: #ffffff;
+  padding: 4px 12px;
+  border-bottom: 1px solid rgba(206, 212, 218, 1);
+}
+
+.filters {
+  display: flex;
+  gap: 16px;
+}
